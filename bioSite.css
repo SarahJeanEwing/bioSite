@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
 
-/* Style the header with a grey background and some padding */
 header {
   overflow: hidden;
-  margin-right: 50px;
   background-color: #dfebec;
+  padding: 30px 5px;
 }
 
 header a {
-  float: left;
   color: #10180E;
   text-align: center;
-  padding: 30px 40px;;
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
+  display: inline;
+  padding: 30px;
 }
 
 header a:hover {
@@ -22,13 +21,13 @@ header a:hover {
   color: #10180E;
 }
 
+header a.name {
+  font-size: 45px;
+}
+
 #hobbies {
   border-left: 1px solid black;
   height: 30px;
-}
-
-header a.name {
-  font-size: 45px;
 }
 
 .nav-bar {
@@ -36,16 +35,32 @@ header a.name {
   display: inline-block;
 }
 
-.image-container {
+.container {
   display: flex;
   justify-content: center;
   gap: 100px;
   padding: 50px;
 }
 
+.image-1, .image-2, .image-3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile {
+   height:600px;
+   width:400px;
+}
+
 img {
    height:450px;
    width:300px;
+}
+
+.text {
+  display: block;
+  line-height: 1.1;
 }
 
 body {
@@ -58,20 +73,33 @@ h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-html {font-size: 100%;} /* 16px */
+html {
+  font-size: 100%; /* 16px */
+}
 
-h1 {font-size: 4.210rem; /* 67.36px */}
+h1 {
+  font-size: 4.210rem; /* 67.36px */
+}
 
-h2 {font-size: 3.158rem; /* 50.56px */}
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
 
-h3 {font-size: 2.369rem; /* 37.92px */}
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
 
-h4 {font-size: 1.777rem; /* 28.48px */}
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
 
-h5 {font-size: 1.333rem; /* 21.28px */}
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
 
-small {font-size: 0.750rem; /* 12px */
-
+small {
+  font-size: 0.750rem; /* 12px */
+}
 
 
 
