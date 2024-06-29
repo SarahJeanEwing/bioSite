@@ -1,9 +1,12 @@
+/* Sarah Ewing */
+/* 06/29/2024 */
+/* Module 7.2 Assignment */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
 
 header {
   overflow: hidden;
-  background-color: #dfebec;
-  padding: 30px 5px;
+  background-color: #e2ecdf;
 }
 
 header a {
@@ -12,17 +15,17 @@ header a {
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
-  display: inline;
+  display: inline-block;
   padding: 30px;
 }
 
 header a:hover {
-  background-color: #90B784;
+  background-color: #889FBA;
   color: #10180E;
 }
 
 header a.name {
-  font-size: 45px;
+  font-size: 60px;
 }
 
 #hobbies {
@@ -46,21 +49,41 @@ header a.name {
   display: flex;
   flex-direction: column;
   text-align: center;
+  overflow: true;
+  background-color: #A4C7CB;
+  padding: 20px;
+  border-radius: 75px;
 }
 
 .profile {
    height:600px;
    width:400px;
+   padding: 20px;
+   background-color: #A4C7CB;
+}
+
+.descriptors {
+   margin-top: 20px;
+   margin-bottom: 5px;
+}
+
+.hobbypic {
+   height: 300px;
+   border-radius: 50%;
 }
 
 img {
    height:450px;
    width:300px;
+   border-radius: 75px;
 }
+
 
 .text {
   display: block;
   line-height: 1.1;
+  border: 15px solid #A4C7CB;
+  padding: 10px;
 }
 
 body {
@@ -101,6 +124,13 @@ small {
   font-size: 0.750rem; /* 12px */
 }
 
-
-
-
+footer {
+    background-color: #e2ecdf;
+    margin-bottom: 0;
+    width: 100%;
+    float: right;
+    font-style: italic;
+    text-align: right;
+    margin-top: 100px;
+    padding: 15px;
+}
